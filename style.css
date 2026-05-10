@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', Helvetica, Arial;
+    background: white;
+}
+#maincontainer{
+    margin: auto;
+    padding: 60px 25px;
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+}
+#maincontainer > div:nth-child(1){
+    margin: 0 0 20px;
+    font-size: 2rem;
+    /* width: fit-content; */
+}
+#maincontainer > div:nth-child(2){
+
+}
+#maincontainer > div:nth-child(3){
+    font-size: 1rem;
+    color: black;
+}
+
+#myCanvas{
+    border: 3px solid black;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
