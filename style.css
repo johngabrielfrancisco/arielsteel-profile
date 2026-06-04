@@ -33,6 +33,7 @@ body{
     padding: 0 20px;
     max-width: 1180px;
     min-width: 350px;
+    position: relative;
 }
 
 #maincontainer .mid-cont{
@@ -99,13 +100,14 @@ h1 span{
     width: 400px;
     max-width: 100%;
     height: auto;
+    user-select: none;
 }
 
 #clockdiv{
     width: 205px;
     font-size: 0.875rem;
     color: white;
-    position: fixed;
+    position: absolute;
     top: 10px;
     right: 10px;
 }
@@ -128,4 +130,14 @@ footer a{
     text-decoration: none;
 }
 
+/* Text select color */
+::selection {
+  background-color: #2f3542; /* Changes the highlight background */
+  color: #f1f2f6;            /* Changes the text color itself */
+}
 
+/* older Mozilla Firefox */
+::-moz-selection {
+  background-color: #2f3542;
+  color: #f1f2f6;
+}
