@@ -1,11 +1,11 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const today = new Date();
+    // const today = new Date();
 
-    const todayYear = today.getFullYear();
+    // const todayYear = today.getFullYear();
 
-    document.getElementById('span-year').textContent = todayYear;
+    // document.getElementById('span-year').textContent = todayYear;
 
 
     function runClock(){
