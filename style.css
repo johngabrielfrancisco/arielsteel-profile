@@ -92,8 +92,8 @@ h1 span{
     color: white;
     text-decoration: unset;
 }
-#maincontainer > .mid-cont .white-text{
-    color: white;
+#maincontainer > .white-text{
+    color: #2F3542;
 }
 
 #pixelart{
